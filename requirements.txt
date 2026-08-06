@@ -1,0 +1,22 @@
+openai>=1.0.0
+python-dotenv>=1.0.0
+flask>=3.0.0
+gunicorn>=21.0.0
+
+# Vector DB & RAG
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+
+# HTTP client for real API calls
+requests>=2.31.0
+
+# PyTorch (CPU) - sentence-transformers dependency
+# Windows: pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
+
+# 보험다모아 실시간 스크래핑 (선택, JavaScript 렌더링 필요)
+# pip install playwright && playwright install chromium
+playwright>=1.40.0
+
+# 실시간 웹 검색 (Live Mode)
+ddgs>=0.1.0

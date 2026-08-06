@@ -1,0 +1,17 @@
+.env
+.git
+__pycache__/
+*.pyc
+*.pyo
+chroma_db/
+data/insmarket_cache.json
+data/insmarket_excel_cache.json
+data/fss_cache.json
+data/debug/
+*.xls
+*.xlsx
+*.log
+*.tmp
+run.bat
+make_contest_pdfs.py
+*.pdf

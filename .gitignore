@@ -1,0 +1,31 @@
+# API 키 및 환경변수
+.env
+
+# 캐시 파일
+data/insmarket_cache.json
+data/insmarket_excel_cache.json
+data/fss_cache.json
+data/debug/
+
+# ChromaDB 벡터 저장소
+chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# 엑셀 데이터 (대용량)
+*.xls
+*.xlsx
+
+# 로그 및 임시 파일
+*.log
+*.tmp
+debug.bat
+보험 에이전트 이어서 작업해줘.txt
