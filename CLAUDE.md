@@ -2,6 +2,18 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## 배포 정보
+
+| 항목 | 값 |
+|-----|---|
+| GitHub | https://github.com/leeyonsei78/insurai-chatbot |
+| 배포 URL | https://insurai-chatbot-production.up.railway.app |
+| Railway 프로젝트 | https://railway.com/project/35c3bd7b-5789-43a3-8751-8351c45f1105 |
+| 플랫폼 | Railway (Docker, 미국 SFO 리전) |
+
+코드 변경 후 재배포: `git push origin master` → Railway가 자동으로 재빌드.  
+수동 재배포: `railway up --detach --service insurai-chatbot`
+
 ## 프로젝트 개요
 
 2026 금융 AI Challenge 출품작 — GPT-4o 기반 보험 상담 AI 챗봇.  
