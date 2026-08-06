@@ -23,9 +23,6 @@ RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTr
 
 COPY . .
 
-# ChromaDB 영구 저장 경로 (Railway Volume은 이 경로에 마운트)
-VOLUME ["/app/chroma_db"]
-
 EXPOSE 5000
 
 CMD ["python", "web_app.py"]
